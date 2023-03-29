@@ -11,6 +11,64 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ /* Basic CSS  */
+ .section-bg {
+   background-color: #F6FBF4;
+ }
+p{
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+ /*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+ .services .icon-box {
+   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+   padding: 50px 30px;
+   transition: all ease-in-out 0.4s;
+   background: #fff;
+ }
+
+ .services .icon-box .icon {
+   margin-bottom: 10px;
+ }
+
+ .services .icon-box .icon i {
+   color: #f3f70d;
+   font-size: 36px;
+   transition: 0.3s;
+ }
+
+ .services .icon-box h4 {
+   font-weight: 1000;
+   margin-bottom: 15px;
+   font-size: 25px;
+   text-decoration: none;
+ }
+
+ .services .icon-box h4 a {
+   color: #37517e;
+   transition: ease-in-out 0.3s;
+   text-decoration: none;
+ }
+
+ .services .icon-box p {
+   line-height: 24px;
+   font-size: 14px;
+   margin-bottom: 0;
+ }
+
+ .services .icon-box:hover {
+   transform: translateY(-10px);
+ }
+
+ .services .icon-box:hover h4 a {
+   color: #47b2e4;
+ }
+
+
+
+ /* title section  */
+
  .section-title {
    text-align: center;
    padding-bottom: 30px;
@@ -23,7 +81,7 @@
    margin-bottom: 20px;
    padding-bottom: 20px;
    position: relative;
-   color: #37517e;
+   color: #032b0a;
  }
 
  .section-title h2::before {
@@ -43,7 +101,7 @@
    display: block;
    width: 40px;
    height: 3px;
-   background: #47b2e4;
+   background: #0cf037;
    bottom: 0;
    left: calc(50% - 20px);
  }
@@ -3073,32 +3131,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #0c9c27;
+  border-color: #0c9c27;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: #0c9c27;
+  border-color: #0c9c27;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  background-color: #0c9c27;
+  border-color: #0c9c27;
+  box-shadow: 0 0 0 0.25rem rgba(12,156, 39, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cca000;
-  border-color: #bf9600;
+  background-color: #0c9c27;
+  border-color: #0c9c27;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(12, 156, 39, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #0c9c27;
+  border-color: #0c9c27;
 }
 
 .btn-secondary {
@@ -3312,27 +3370,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #ffc800;
-  border-color: #ffc800;
+  color: #0cf037;
+  border-color: #0cf037;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #0cf037;
+  border-color: #0cf037;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #0cf037;
+  border-color: #0cf037;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #ffc800;
+  color: #0cf037;
   background-color: transparent;
 }
 
@@ -11383,7 +11441,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #032b0a;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11409,7 +11467,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #0cf037;
 }
 
 @media (min-width: 992px) {
@@ -11431,7 +11489,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #032b0a;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11452,7 +11510,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: linear-gradient( rgba(12, 156, 39, 0.5),
+  rgba(0, 0, 0, 0.8)),url("../assets/img/image.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11506,11 +11565,11 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(12, 156, 39, 0.5);
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity ease-in-out 0.25s;
+  transition: opacity ease-in-out 0.50s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
@@ -11819,3 +11878,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+
+
+
